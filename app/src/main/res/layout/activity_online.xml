@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homeonrockb"
+    tools:context="com.example.ULAS.Online">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Nakonechni"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="193dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="344dp"
+        android:text="-Java- Berkunsky"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Nakonechni"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/btn_googlemeet_java"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:longClickable="false"
+        android:text="@string/google_meet"
+        android:textStyle="normal"
+        app:backgroundTint="#8B8888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zoom_algorithms" />
+
+    <Button
+        android:id="@+id/btn_zoom_osneng"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:longClickable="false"
+        android:text="@string/zoom"
+        android:textStyle="normal"
+        app:backgroundTint="#8B8888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_googlemeet_java" />
+
+    <Button
+        android:id="@+id/btn_zoom_ecologetick"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
+        android:longClickable="false"
+        android:text="@string/zoom"
+        android:textStyle="normal"
+        app:backgroundTint="#8B8888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zoom_osneng" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="193dp"
+        android:layout_height="71dp"
+        android:text="-Algorithms- Makarova"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/btn_zoom_algorithms"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:longClickable="false"
+        android:text="@string/zoom"
+        android:textStyle="normal"
+        app:backgroundTint="#8B8888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zoom_database" />
+
+    <Button
+        android:id="@+id/btn_zoom_database"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:longClickable="false"
+        android:text="@string/zoom"
+        android:textStyle="normal"
+        app:backgroundTint="#8B8888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zoom_assembler" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="193dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="152dp"
+        android:text="-Databases- Latanskaya"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="193dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="-Assembler- Makarova"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_zoom_assembler"
+        android:layout_width="161dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:longClickable="false"
+        android:text="@string/zoom"
+        android:textStyle="normal"
+        app:backgroundTint="#8B8888"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="440dp"
+        android:text="@string/base"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/energisafe"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="219dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Экологическая этика"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

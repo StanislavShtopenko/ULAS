@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homeonrock2v"
+    tools:context="com.example.ULAS.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Time" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beta "
+            android:textAlignment="gravity"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:contentDescription="@string/icon_m"
+            app:srcCompat="@drawable/logo_one" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/btn_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/time_table"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal|bold|italic"
+            app:backgroundTint="#8B8888" />
+
+        <Button
+            android:id="@+id/btn_online"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/online"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal|bold|italic"
+            app:backgroundTint="#8B8888" />
+
+        <Button
+            android:id="@+id/btn_library"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/library"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal|bold|italic"
+            app:backgroundTint="#8B8888" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
